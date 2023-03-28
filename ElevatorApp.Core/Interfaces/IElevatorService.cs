@@ -8,5 +8,6 @@ namespace ElevatorApp.Core.Interfaces
 {
     public interface IElevatorService
     {
+        void CallElevator(int floor, int numberPeopleWaiting);
     }
 }
