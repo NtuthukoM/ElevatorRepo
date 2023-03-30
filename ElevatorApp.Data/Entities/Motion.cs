@@ -1,8 +1,8 @@
-﻿namespace ElevatorApp.Data
+﻿namespace ElevatorApp.Data.Entities
 {
     public enum Motion
     {
-        Stationoary,
+        Waiting,
         GoingUp,
         GoingDown
     }
